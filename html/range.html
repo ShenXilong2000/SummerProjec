@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+<title>js+css3+HTML5拖动滑块改变值</title>
+<style>
+body{/*background: #ecf0f1;*/color: #34495e;padding-top: 40px;text-shadow: white 1px 1px 1px;}
+.value{border-bottom: 4px dashed #bdc3c7;text-align: center;font-weight: bold;font-size: 10em;width: 300px;height: 100px;line-height: 60px;margin: 40px auto;letter-spacing: -0.07em;text-shadow: white 2px 2px 2px;}
+input[type="range"] {display: block;-webkit-appearance: none;background-color: #bdc3c7;width: 100%;height: 10px;border-radius: 5px;margin: 0 auto;outline: 0;}
+input[type="range"]::-webkit-slider-thumb {-webkit-appearance: none;background-color: #e74c3c;width: 30px;height: 30px;border-radius: 50%;border: 2px solid white;cursor: pointer;transition: 0.3s ease-in-out;}
+.range{position:relative;width:300px;margin:0 auto;}
+.rang_width{position:absolute;top:-15px;left:0;background:#f00;height:10px;border-radius:5px 0 0 5px;}
+</style>
+</head>
+<body>
+<div class="value">0</div>
+<div class="range">
+  <input type="range" min="0" max="10" step="1" value="0">
+  <p class="rang_width"></p>
+</div>
+<script>
+var elem = document.querySelector('input[type="range"]');
+
+var rangeValue = function(){
+  var newValue = elem.value;
+  var target = document.querySelector('.value');
+  target.innerHTML = newValue;
+  var max = elem.getAttribute("max");
+  var width = (91.3 / max * newValue) +"%";    //这里的91.3是用了整个滑块的宽度300减去拖动的那个圆形滑块的宽度30再加上圆形滑块的边框宽度4然后再除以300得来的，因为显示拖动距离的rang_width在绝对定位后在滑动过程中会遮挡住圆形滑块，导致圆形滑块无法被拖动，所以要适当的减少rang_width在滑动时的宽度，当然rang_width的宽度是根据你自己的实际需求来计算出来的，并不是一成不变的91.3%
+  document.querySelector('.rang_width').style.width = width;
+};
+
+elem.addEventListener("input", rangeValue);
+</script>
+</body>
+</html>

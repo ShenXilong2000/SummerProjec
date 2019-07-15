@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="Frame.css">
+<meta charset="utf-8">
+<title>暑期任务</title>
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script src="js/heatmap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/4.8.2/pixi.min.js"></script>
+</head>
+ 
+<body style="overflow-x: hidden; overflow-y: hidden ">
+    <div id="container">
+        <div id="Left">
+            <div id="Left_1">
+                <div class="mytitle">&nbsp; Control Panel</div>
+                <div id="Left_body">
+                    <div id="L_1_1">
+                        &nbsp;Graph Nodes:11174 <br>
+                        &nbsp;Graph Edges:23410 <br>
+                        &nbsp;Sampling Nodes:<b id="sampling-nodes">11174</b><br>
+                        &nbsp;Sampling Edges:<b id="sampling-edges">23410</b>
+                    </div>
+                    <div id="L_1_2">
+                        <select name="Left-select" id="Left-s">
+                                <option value="TIES">TIES</option>
+                                <option value="RW">RW</option>
+                                <option value="BFS">BFS</option>
+                                <option value="DFS">DFS</option>
+                                <option value="ISRW">ISRW</option>
+                                <option value="RE">RE</option>
+                                <option value="RJ">RJ</option>
+                                <option value="RN">RN</option>
+                        </select>
+                        <input type="button" id="button-sample" value="sample" onclick="sampling_func()">
+                        <script src="/js/button.js"></script>
+                    </div>
+                    <div id="L_1_3">
+                        Sampling Rate: &nbsp;
+                        <input type="range" min="5" max="100" value="40" class="range" id="range1" step="5">
+                        <b class="b1">40</b>
+                        <br>
+                        Max Threshold: &nbsp;
+                        <input type="range" min="0" max="100" value="100" class="range" id="range2"> 
+                        <b class="b2">100</b>                       
+                        <br>
+                        Min Threshold: &nbsp;
+                        <input type="range" min="0" max="100" value="100" class="range" id="range3">
+                        <b class="b3">100</b>
+                        <br>
+                        <script>
+                            var elem1 = document.querySelector('input[id="range1"]');
+                            var rangeValue1 = function(){
+                                var newValue1 = elem1.value;
+                                var target1 = document.querySelector('.b1');
+                                target1.innerHTML = newValue1;
+                            };
+                            elem1.addEventListener("input", rangeValue1);
+
+                            var elem2 = document.querySelector('input[id="range2"]');
+                            var rangeValue2 = function(){
+                                var newValue2 = elem2.value;
+                                var target2 = document.querySelector('.b2');
+                                target2.innerHTML = newValue2;
+                            };
+                            elem2.addEventListener("input", rangeValue2);
+
+                            var elem3 = document.querySelector('input[id="range3"]');
+                            var rangeValue3 = function(){
+                                var newValue3 = elem3.value;
+                                var target3 = document.querySelector('.b3');
+                                target3.innerHTML = newValue3;
+                            };
+                            elem3.addEventListener("input", rangeValue3);
+                        </script>
+                    </div>
+                </div>
+            </div>
+            <div id="Left_2">
+                <div class="mytitle"></div>
+                <div id="L_2">
+                    <canvas id="chart" height="200" width="200"></canvas>
+                    <script src="/js/lineChart.js"></script>
+                </div>
+            </div>
+            <div id="Left_3">
+                <div class="mytitle"></div>
+                <div id="canvas_1">
+                    <canvas id="canvas" width="300" height="100">
+                        <script src="/js/Radar_Chart.js"></script>
+                    </canvas>
+                </div>
+            </div>
+        </div>
+        <div id="Centre">
+            <div class="mytitle">
+                &nbsp; Network
+                <select name="Center_select" id="s1" >
+                    <option value="Communtiy">Communtiy</option>
+                </select>
+            </div>
+            <div id="Centre_2">
+                <!-- <script src="/js/ForceDirected_pixi.js"></script> -->
+                <script src="js/forceDirected_json_gai.js"></script>
+                <!-- <script src="/js/Force-Directed.js"></script> -->
+            </div>
+        </div>
+        <div id="Right">
+            <div id="Right_1">
+                <div class="mytitle">
+                    <input type="button" onclick="jsFun()" id="tsne_heat" value="Tsne">
+                    <script src="/js/Tsne_heatmap.js"></script>
+                </div>
+                <div id="dataviz-container" ></div>
+                <div id="heatmap" style="height:340px; width: 410px; display: none"></div>  
+                    <script src="js/heatmap.min.js"></script>
+                    <script src="/js/geoMap.js"></script>
+                    <script src="/js/Tsne.js"></script>
+            </div>
+            
+            <div id="Right_2">
+                <div class="mytitle">&nbsp;HighMap</div>
+                <div style="height:338px; width: 410px;" id="container1">
+                    <script src="http://cdn.highcharts.com.cn/highmaps/highmaps.js"></script>
+                    <script src="/js/highMap.js"></script>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

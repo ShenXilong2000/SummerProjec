@@ -1,0 +1,97 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>测试</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/4.8.2/pixi.min.js"></script>
+</head>
+<body>
+    
+    <div id="cs"></div>
+    <style>*{padding: 0;margin:0}</style>
+    <script>
+        //mousewheel 
+        var scrollFunc=function(e){ 
+            e=e || window.event; 
+            var t1=document.getElementById("wheelDelta");  
+            if(e.wheelDelta){//IE/Opera/Chrome 
+                t1.value=e.wheelDelta; 
+                // c_size += t1/150;
+                drawCircle();
+            }
+        } 
+        /*注册事件*/ 
+        if(document.addEventListener){ 
+            document.addEventListener('DOMMouseScroll',scrollFunc,false); 
+        }//W3C 
+        window.onmousewheel=document.onmousewheel=scrollFunc;//IE/Opera/Chrome
+    </script>
+</body>
+</html> -->
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/4.8.2/pixi.min.js"></script>
+</head>
+<body>
+    <div id="cs"></div>
+        <label for="wheelDelta">滚动值:</label>(IE/Opera)<input type="text" id="wheelDelta"/>
+        <label for="detail">滚动值:(Firefox)</label><input type="text" id="detail"/>
+        <script type="text/javascript"> 
+        var scrollFunc=function(e){ 
+            e=e || window.event; 
+            var t1=document.getElementById("wheelDelta"); 
+            if(e.wheelDelta){//IE/Opera/Chrome 
+                t1.value=e.wheelDelta;
+                c_size += t1/150;
+                drawCircle();
+            }
+        } 
+        /*注册事件*/ 
+        if(document.addEventListener){ 
+            document.addEventListener('DOMMouseScroll',scrollFunc,false); 
+        }//W3C 
+        window.onmousewheel=document.onmousewheel=scrollFunc;//IE/Opera/Chrome 
+
+        
+        var circle_color = '#ffd3d3';
+        var wz_x = 100;
+        var wz_y = 100;
+        var c_r = 10;
+        var c_size = 1;
+        let app = new PIXI.Application({
+            width:800,
+            height:800,
+            backgroundColor: 0xffffff,
+            antialias: true,
+            transparent: false,
+            resolution: 1
+        });
+        var a =0;
+        app.renderer.view.style.position = "absolute";
+        app.renderer.view.style.display = "block";
+        app.renderer.autoResize = true;
+        app.renderer.resize(window.innerWidth,window.innerHeight);
+        document.querySelector('#cs').appendChild(app.view);
+        function drawCircle(){
+            
+            const circles = new PIXI.Graphics();
+            circles.beginFill(circle_color);
+            circles.drawCircle(wz_x,wz_y,c_r * c_size);
+            circles.endFill(); 
+            app.stage.addChild(circles);
+            a += 1;
+            console.log(a);
+        }
+        drawCircle();
+        </script>
+        
+</body>
+</html>
