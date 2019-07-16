@@ -45,19 +45,19 @@ chart = Highcharts.chart('container1', {
 		],
 	}],
 
-	// plotOptions: {
-	// 	series: {
-	// 		cursor: 'pointer',
-	// 		events: {
-	// 			click: function(e) {
-	// 				console.log(
-	// 					// Highcharts.dateFormat('%Y-%m-%d %H:%M:%S', e.xAxis.value), 
-	// 					yAxis
-	// 				)
-	// 			},
-	// 		}
-	// 	}
-	// },
+	plotOptions: {
+		series: {
+			cursor: 'pointer',
+			events: {
+				click: function(e) {
+					console.log(
+						// Highcharts.dateFormat('%Y-%m-%d %H:%M:%S', e.xAxis.value), 
+						"sadasdasda"
+					)
+				},
+			}
+		}
+	},
 });
 document.getElementsByClassName('highcharts-credits')[0].style.display="none";
 // document.getElementsByClassName('highcharts-axis-labels highcharts-yaxis-labels')[0].style.display="none";
