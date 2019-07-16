@@ -22,7 +22,8 @@ function drawforce(nodeArr, edgeArr) {
 
     const width = 400;
     const height = 400;
-    
+
+
     var simulation = d3.forceSimulation(nodesid)
         .force("link", d3.forceLink(links).id(d => d.id))
         .force("charge", d3.forceManyBody())

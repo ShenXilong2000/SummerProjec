@@ -35,15 +35,18 @@ d3.json("/data/force_data_gai.json", function populate(datas){
             var data = {};
             var a1 = csvdata[i].source;
             var a2 = csvdata[i].target;
-            data["source"] = a1;
+            // data["source"] = a1;
             // data["source"].x = datas[a1].x;
             // data["source"].y = datas[a1].y;
-            data["target"] = a2;
+            data["source"] = {"id": a1, "x" : datas[a1].x, "y":datas[a1].y}
+            data["target"] = {"id": a2, "x" : datas[a2].x, "y":datas[a2].y}
+            // data["target"] = a2;
             // data["target"].x = datas[a2].x;
             // data["target"].y = datas[a2].y;
             links.push(data);
         }
 
+        console.log(links);
 
         let app = new PIXI.Application({
             width:force_width,
@@ -55,6 +58,7 @@ d3.json("/data/force_data_gai.json", function populate(datas){
         });
         document.querySelector('#Centre_2').appendChild(app.view);
         app.renderer.backgroundColor = 0xffffff;
+
 
 
         var x_max = d3.max(nodes,function(d){
@@ -86,39 +90,41 @@ d3.json("/data/force_data_gai.json", function populate(datas){
             nodes[i].x = parseInt(xScale(nodes[i].x));
             nodes[i].y = parseInt(yScale(nodes[i].y));
         }
-        // for(var i = 0;i < links.length;i++){
-        //     links[i]["source"].x = parseInt(xScale(links[i]["source"].x));
-        //     links[i]["source"].y = parseInt(yScale(links[i]["source"].y));
-        //     links[i]["target"].x = parseInt(xScale(links[i]["target"].x));
-        //     links[i]["target"].y = parseInt(yScale(links[i]["target"].y));
-        // }
+
+        for(var i = 0;i < links.length;i++){
+            links[i]["source"].x = parseInt(xScale(links[i]["source"].x));
+            links[i]["source"].y = parseInt(yScale(links[i]["source"].y));
+            links[i]["target"].x = parseInt(xScale(links[i]["target"].x));
+            links[i]["target"].y = parseInt(yScale(links[i]["target"].y));
+        }
+
 
 
         const lines = new PIXI.Graphics();
-        // for(var i = 0 ; i < links.length ; i++){
-        //     lines.lineStyle(0.4,line_Color,1);
-        //     lines.moveTo(links[i].source.x,links[i].source.y);
-        //     lines.lineTo(links[i].target.x,links[i].target.y);
-        // }
         for(var i = 0 ; i < links.length ; i++){
             lines.lineStyle(0.4,line_Color,1);
-            console.log(datas[links[i].source])
-            lines.moveTo(parseInt(xScale(datas[links[i].source].x)),parseInt(yScale(datas[links[i].source].y)));
-            lines.lineTo(parseInt(yScale(datas[links[i].target].x)),parseInt(yScale(datas[links[i].target].y)));
+            lines.moveTo(links[i].source.x,links[i].source.y);
+            lines.lineTo(links[i].target.x,links[i].target.y);
         }
+        // for(var i = 0 ; i < links.length ; i++){
+        //     lines.lineStyle(0.4,line_Color,1);
+        //     // console.log(datas[links[i].source])
+        //     lines.moveTo(parseInt(xScale(datas[links[i].source].x)),parseInt(yScale(datas[links[i].source].y)));
+        //     lines.lineTo(parseInt(yScale(datas[links[i].target].x)),parseInt(yScale(datas[links[i].target].y)));
+        // }
         app.stage.addChild(lines);
 
         const circles = new PIXI.Graphics();
-        for(var key in datas){
-            circles.beginFill(circle_Color);
-            circles.drawCircle(parseInt(xScale(datas[key].x)),parseInt(yScale(datas[key].y)),5);
-            circles.endFill();
-        }
-        // for(var i = 0; i< nodes.length; i++){
+        // for(var key in datas){
         //     circles.beginFill(circle_Color);
-        //     circles.drawCircle(nodes[i].x,nodes[i].y,1.5);
+        //     circles.drawCircle(parseInt(xScale(datas[key].x)),parseInt(yScale(datas[key].y)),5);
         //     circles.endFill();
         // }
+        for(var i = 0; i< nodes.length; i++){
+            circles.beginFill(circle_Color);
+            circles.drawCircle(nodes[i].x,nodes[i].y,1.5);
+            circles.endFill();
+        }
         app.stage.addChild(circles);
         console.log("end");
     });

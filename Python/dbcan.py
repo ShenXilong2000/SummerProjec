@@ -23,16 +23,18 @@ import json
 # db = skc.DBSCAN(eps=1.5, min_samples=3).fit(X) #DBSCAN聚类方法 还有参数，matric = ""距离计算方法
 # labels = db.labels_  #和X同一个维度，labels对应索引序号的值 为她所在簇的序号。若簇编号为-1，表示为噪声
 
-with open(r"E:\暑期任务\Python\data\oregonf_TSNE_id_x_y_5000.csv") as f:
+with open(r"E:\暑期任务\Python\data\oregonf_TSNE_5000_id_x_y_kde.csv") as f:
     lines = f.readline()
     datas = []
+    ids = []
     while True:
         lines = f.readline().replace('\n','')
         if not lines:
             break
         txt = lines.split(',')
-        data = [float(txt[1]), float(txt[2])]
+        data = [round(float(txt[1]), 30), round(float(txt[2]),30)]
         datas.append(data)
+        ids.append([int(txt[0]), round(float(txt[3]), 30)])
     pass
     X = np.array(datas)
     # print(X)
@@ -42,23 +44,47 @@ with open(r"E:\暑期任务\Python\data\oregonf_TSNE_id_x_y_5000.csv") as f:
     db = skc.DBSCAN(eps=eps, min_samples=20).fit(X)
     labels = db.labels_
 
-    # print('每个样本的簇标号:')
-    # print(labels)
-
-    raito = len(labels[labels[:] == -1]) / len(labels)  #计算噪声点个数占总数的比例
-    # print('噪声比:', format(raito, '.2%'))
-
+    print(X[labels == 1])
     n_clusters_ = len(set(labels)) - (1 if -1 in labels else 0)  # 获取分簇的数目
 
-    print('分簇的数目: %d' % n_clusters_)
-    print("轮廓系数: %0.3f" % metrics.silhouette_score(X, labels)) #轮廓系数评价聚类的好坏
-
+    ans_dict = {}
     for i in range(n_clusters_):
-        # print('簇 ', i, '的所有样本:')
-        one_cluster = X[labels == i]
-        # print(one_cluster)
-        plt.plot(one_cluster[:, 0], one_cluster[:, 1], 	"o", markersize=1)
+        temp_dict = {}
+        for lb in range(len(labels)):
+            if labels[lb] == i:
+                ans = {int(ids[lb][0]): {"x": datas[lb][0], "y": datas[lb][1], "kde": ids[lb][1]}, }
+                temp_dict.update(ans)
+            pass
+        pass
+        ans_dict.update({i: temp_dict})
 
-    file_name = str(eps)+'___' + str(n_clusters_) +".png"
-    plt.savefig(file_name)
+    # ans_dict = {}
+    # for i in range(len(labels)):
+    #     ans = {int(ids[i]): {"x": datas[i][0], "y": datas[i][1], "dbscan": int(labels[i])}}
+    #     ans_dict.update(ans)
+
+    print(ans_dict)
+    f_json = open("dbscan_id_x_y.json", "w+")
+    json_str = json.dumps(ans_dict)
+    f_json.write(json_str)
+
+    # # print('每个样本的簇标号:')
+    # # print(labels)
+    #
+    # raito = len(labels[labels[:] == -1]) / len(labels)  #计算噪声点个数占总数的比例
+    # # print('噪声比:', format(raito, '.2%'))
+    #
+    # n_clusters_ = len(set(labels)) - (1 if -1 in labels else 0)  # 获取分簇的数目
+    #
+    # print('分簇的数目: %d' % n_clusters_)
+    # print("轮廓系数: %0.3f" % metrics.silhouette_score(X, labels)) #轮廓系数评价聚类的好坏
+    #
+    # for i in range(n_clusters_):
+    #     # print('簇 ', i, '的所有样本:')
+    #     one_cluster = X[labels == i]
+    #     # print(one_cluster)
+    #     plt.plot(one_cluster[:, 0], one_cluster[:, 1], 	"o", markersize=1)
+    #
+    # file_name = str(eps)+'___' + str(n_clusters_) +".png"
+    # plt.savefig(file_name)
     # plt.show()

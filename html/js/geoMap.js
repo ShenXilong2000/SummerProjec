@@ -19,7 +19,7 @@ function geomap_change(name,rate,num){
   d3.json("/data/sampling_kde_kl_gai.json",function populate(jsondata){
     d3.csv("/data/kde/oregonf_TSNE_exponential_id_x_y_kde.csv",function(error, kdedata){
       var kdes = [];
-      console.log(kdedata);
+      // console.log(kdedata);
       for(var i = 0;i<kdedata.length;i++){
         var kde = {}
         kde.id = parseInt(kdedata[i].id);
