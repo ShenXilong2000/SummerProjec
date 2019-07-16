@@ -69,7 +69,7 @@ function tsne_change(name,rate,num){
                 .enter()
                     .append('circle')
                     .attr('r', 1)
-                    .attr('fill', '#26963c')
+                    .attr('fill', '#39AD88')
                     .attr('cx', function(d){ return d["x"]; })
                     .attr('cy', function(d){ return d["y"]; })
             d3.json("/data/dbscan_id_x_y.json", function populate(dbscanData){
@@ -82,11 +82,28 @@ function tsne_change(name,rate,num){
                         points.push([dbscanData[key][id]["x"], dbscanData[key][id]["y"]]);
                     }
                     var hull = d3.polygonHull(points);
-                    // console.log(hull);
-                    // console.log(points);
-                    points = [];               
-                }
+                    hull.push(
+                        [hull[0][0],hull[0][1]]
+                    )
+                    var hullPath = d3.line()
+                    .x(function(value){
+                        return xScale(value[0])
+                    })
+                    .y(function(value){
+                        return yScale(value[1])
+                    });   
+                    points = [];    
+                    svg.append('path')
+                    .attr('id',function()
+                    {
+                        return "svg_" + String(key)
+                    })
+                    .attr("d",hullPath(hull))
+                    .attr('stroke','#BABABA')
+                    .attr('stroke-width',2)
+                    .attr('fill','none');
 
+                }
 
             });
             // console.log();

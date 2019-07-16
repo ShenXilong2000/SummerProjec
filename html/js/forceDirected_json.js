@@ -38,7 +38,6 @@ d3.json("/data/force_data_gai.json", function populate(datas){
             circles.endFill();
         }
         app.stage.addChild(circles);
-        console.log("end");
     });
 })
 

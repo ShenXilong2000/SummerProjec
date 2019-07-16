@@ -40,8 +40,8 @@ with open(r"E:\暑期任务\Python\data\oregonf_TSNE_5000_id_x_y_kde.csv") as f:
     # print(X)
     # for j in range(80, 90):
     # eps = j * 0.1
-    eps = 10.5
-    db = skc.DBSCAN(eps=eps, min_samples=20).fit(X)
+    eps = 11
+    db = skc.DBSCAN(eps=eps, min_samples=3).fit(X)
     labels = db.labels_
 
     print(X[labels == 1])
@@ -64,7 +64,7 @@ with open(r"E:\暑期任务\Python\data\oregonf_TSNE_5000_id_x_y_kde.csv") as f:
     #     ans_dict.update(ans)
 
     print(ans_dict)
-    f_json = open("dbscan_id_x_y.json", "w+")
+    f_json = open("dbscan_id_x_y_cbj.json", "w+")
     json_str = json.dumps(ans_dict)
     f_json.write(json_str)
 

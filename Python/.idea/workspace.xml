@@ -4,7 +4,59 @@
     <bookmark url="file://$PROJECT_DIR$/main.py" line="75" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ecc8d91-e3f2-48de-942b-7797cecdefe8" name="Default Changelist" comment="" />
+    <list default="true" id="3ecc8d91-e3f2-48de-942b-7797cecdefe8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KMeans.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HighMapData.py" beforeDir="false" afterPath="$PROJECT_DIR$/HighMapData.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data - 副本/KernelDensity/oregonf_TSNE_cosine_id_x_y_kde.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data - 副本/KernelDensity/oregonf_TSNE_epanechnikov_id_x_y_kde.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data - 副本/KernelDensity/oregonf_TSNE_exponential_id_x_y_kde.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data - 副本/KernelDensity/oregonf_TSNE_gaussian_id_x_y_kde.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data - 副本/KernelDensity/oregonf_TSNE_linear_id_x_y_kde.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data - 副本/KernelDensity/oregonf_TSNE_tophat_id_x_y_kde.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data - 副本/kde/oregonf_TSNE_cosine_id_x_y_kde.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data - 副本/kde/oregonf_TSNE_epanechnikov_id_x_y_kde.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data - 副本/kde/oregonf_TSNE_exponential_id_x_y_kde.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data - 副本/kde/oregonf_TSNE_gaussian_id_x_y_kde.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data - 副本/kde/oregonf_TSNE_linear_id_x_y_kde.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data - 副本/kde/oregonf_TSNE_tophat_id_x_y_kde.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data - 副本/oregonf.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data - 副本/oregonf.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data - 副本/oregonf_ nodes.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data - 副本/oregonf_TSNE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data - 副本/oregonf_TSNE_a_b.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data - 副本/oregonf_TSNE_a_b.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data - 副本/oregonf_TSNE_cosine_id_x_y_kde.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data - 副本/oregonf_TSNE_id_x_y.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data - 副本/oregonf_TSNE_id_x_y_kde_cs.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data - 副本/oregonf_TSNE_id_x_y_kde_cs_2000.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data - 副本/oregonf_edges_vector.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data - 副本/oregonf_sampling_edge.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data - 副本/oregonf_sampling_node.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbcan.py" beforeDir="false" afterPath="$PROJECT_DIR$/dbcan.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dbscan_id_x_y.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/figure_5000.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/filename.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/force_data_gai.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/id_x_y_dbscan.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samling_kl.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samplingName_rate_db_highmapData.csv" beforeDir="false" afterPath="$PROJECT_DIR$/samplingName_rate_db_highmapData.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampling_kde.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampling_kde_kl.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sampling_ratechange.py" beforeDir="false" afterPath="$PROJECT_DIR$/sampling_ratechange.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SummerProject" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cbj/dotsne(1).py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cbj/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cbj/node2vec.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cbj/oregonf.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cbj/oregonf_t_SNE.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cbj/oregonf_t_SNE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../html/Frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/../html/Frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../html/js/Tsne.js" beforeDir="false" afterPath="$PROJECT_DIR$/../html/js/Tsne.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../html/js/forceDirected_json.js" beforeDir="false" afterPath="$PROJECT_DIR$/../html/js/forceDirected_json.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../html/js/highMap.js" beforeDir="false" afterPath="$PROJECT_DIR$/../html/js/highMap.js" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,11 +65,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HighMapData.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+            <state relative-caret-position="357">
+              <caret line="27" column="28" lean-forward="true" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -26,31 +78,52 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sampling_tsne_id_x_y.py">
+        <entry file="file://$PROJECT_DIR$/data/dbscan_id_x_y.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="28" column="39" lean-forward="true" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="41" />
+            <state>
+              <caret column="17" selection-start-column="16" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dbcan.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="404">
+              <caret line="66" column="36" selection-start-line="66" selection-start-column="36" selection-end-line="66" selection-end-column="36" />
               <folding>
-                <element signature="e#0#9#0" expanded="true" />
+                <element signature="e#0#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dbscan_id_x_y.json">
+        <entry file="file://$PROJECT_DIR$/KMeans.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="11" selection-start-column="8" selection-end-column="11" />
+            <state relative-caret-position="-38">
+              <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/highmap_data_js_used.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../html/data/sampling_kde_kl_gai.json">
+        <entry file="file://$PROJECT_DIR$/sampling_ratechange.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret column="42360" selection-start-column="42360" selection-end-column="44143" />
+            <state relative-caret-position="551">
+              <caret line="29" column="38" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -76,7 +149,15 @@
       <find>k</find>
       <find>5298</find>
       <find>kde</find>
+      <find>}]</find>
+      <find>SRW</find>
+      <find>5</find>
+      <find>&quot;rate_5&quot;</find>
+      <find>&quot;5&quot;</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -114,22 +195,26 @@
         <option value="$PROJECT_DIR$/venv/force_data_gai.py" />
         <option value="$PROJECT_DIR$/kl.py" />
         <option value="$PROJECT_DIR$/add_kl.py" />
-        <option value="$PROJECT_DIR$/sampling_ratechange.py" />
         <option value="$PROJECT_DIR$/../html/data/sampling_kde_kl_gai.json" />
         <option value="$PROJECT_DIR$/sbscan_id_x_y_kde.py" />
         <option value="$PROJECT_DIR$/dbscan_id_x_y_kde.py" />
         <option value="$PROJECT_DIR$/KernelDensity.py" />
         <option value="$PROJECT_DIR$/dbcan.py" />
+        <option value="$PROJECT_DIR$/KMeans.py" />
+        <option value="$PROJECT_DIR$/highmap_data.py" />
+        <option value="$PROJECT_DIR$/data/sampling_kde_kl_gai.json" />
         <option value="$PROJECT_DIR$/HighMapData.py" />
+        <option value="$PROJECT_DIR$/sampling_ratechange.py" />
+        <option value="$PROJECT_DIR$/highmap_data_js_used.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-9" />
-    <option name="y" value="41" />
+    <option name="x" value="515" />
     <option name="width" value="1240" />
-    <option name="height" value="1088" />
+    <option name="height" value="1089" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -143,6 +228,11 @@
               <item name="Python" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -150,6 +240,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../算法/GraphAnalysis-master-master" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
@@ -170,7 +261,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.HighMapData">
+  <component name="RunManager" selected="Python.highmap_data_js_used">
     <configuration name="HighMapData" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -192,7 +283,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="KernelDensity" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="KMeans" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -204,28 +295,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/KernelDensity.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="add_kl" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/add_kl.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/KMeans.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -247,6 +317,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dbcan.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="highmap_data_js_used" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/highmap_data_js_used.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -278,11 +369,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.highmap_data_js_used" />
         <item itemvalue="Python.HighMapData" />
-        <item itemvalue="Python.dbcan" />
-        <item itemvalue="Python.KernelDensity" />
         <item itemvalue="Python.sampling_ratechange" />
-        <item itemvalue="Python.add_kl" />
+        <item itemvalue="Python.KMeans" />
+        <item itemvalue="Python.dbcan" />
       </list>
     </recent_temporary>
   </component>
@@ -309,16 +400,34 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="878" extended-state="7" />
     <layout>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.14993395" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.24966443" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49867898" visible="true" weight="0.25067025" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39544237" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32797858" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32882273" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.501321" side_tool="true" weight="0.25067025" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32841823" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14993395" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24966443" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49932885" visible="true" weight="0.28647926" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39648172" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932885" visible="true" weight="0.25067025" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39544237" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32797858" />
@@ -329,88 +438,9 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://D:/Anaconda/Lib/site-packages/networkx/utils/decorators.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2755">
-          <caret line="197" selection-start-line="197" selection-end-line="197" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Anaconda/Lib/site-packages/gensim-3.6.0-py3.7-win-amd64.egg/gensim/models/word2vec.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="766" selection-start-line="766" selection-end-line="766" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/oregonf_edges_vector.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4788">
-          <caret column="9" lean-forward="true" selection-start-column="9" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/oregonf_sampling_edge.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../算法/node2vec/node2vec-master/src/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="88" column="28" selection-start-line="88" selection-start-column="28" selection-end-line="88" selection-end-column="28" />
-          <folding>
-            <element signature="e#240#255#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../算法/node2vec/node2vec-master/src/node2vec.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="969">
-          <caret line="53" selection-start-line="53" selection-end-line="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="26" column="123" lean-forward="true" selection-start-line="26" selection-start-column="123" selection-end-line="26" selection-end-column="123" />
-          <folding>
-            <element signature="e#0#238#1" />
-            <element signature="e#240#255#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/filename.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node2vec.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="44" column="31" selection-start-line="44" selection-start-column="31" selection-end-line="44" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../算法/GraphAnalysis-master-master/GraphSampling/BFS.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="30" column="61" selection-start-line="30" selection-start-column="61" selection-end-line="30" selection-end-column="61" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../算法/GraphAnalysis-master-master/GraphSampling/MHRW.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -506,16 +536,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sampling_t_SNE.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/samling_kl.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -574,13 +594,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sampling_kde_kl_gai.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret column="424" selection-start-column="424" selection-end-column="424" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/add_kde_json.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-57">
@@ -620,33 +633,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sampling.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sampling_ratechange.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="59" selection-start-line="14" selection-start-column="59" selection-end-line="14" selection-end-column="59" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dbcan.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="65" column="19" selection-start-line="66" selection-start-column="19" selection-end-line="66" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/kl.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="412">
@@ -657,30 +643,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/KernelDensity.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="37" column="33" selection-start-line="37" selection-start-column="33" selection-end-line="37" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#47#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/id_x_y_dbscan.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dbscan_id_x_y_kde.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/dbscan_id_x_y_kde.py" />
     <entry file="file://$PROJECT_DIR$/../html/data/sampling_kde_kl_gai.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
-          <caret column="42360" selection-start-column="42360" selection-end-column="44143" />
+          <caret column="42359" selection-start-column="42359" selection-end-column="44142" />
         </state>
       </provider>
     </entry>
@@ -691,33 +658,140 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/id_x_y_dbscan.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samplingName_rate_db_highmapData.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../html/data/dbscan_id_x_y.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/oregonf_sampling_node.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/kde_sampling_tsne.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="44" column="51" lean-forward="true" selection-start-line="44" selection-start-column="51" selection-end-line="44" selection-end-column="51" />
+        <state relative-caret-position="456">
+          <caret line="49" column="2" selection-start-line="49" selection-start-column="2" selection-end-line="49" selection-end-column="2" />
           <folding>
             <element signature="e#0#47#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sampling_tsne_id_x_y.py">
+    <entry file="file://$PROJECT_DIR$/data/oregonf_edges_vector.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KernelDensity.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="28" column="39" lean-forward="true" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="41" />
+        <state relative-caret-position="228">
+          <caret line="37" column="33" selection-start-line="37" selection-start-column="33" selection-end-line="37" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sampling.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sampling_t_SNE.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HighMapData.py">
+    <entry file="file://$PROJECT_DIR$/sampling_tsne_id_x_y.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="204">
+          <caret line="28" column="39" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samplingName_rate_db_highmapData_gai.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/sampling_kde_kl_gai.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret column="5703549" lean-forward="true" selection-start-column="5703549" selection-end-column="5703549" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sampling_kde_kl_gai.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret column="740587" selection-start-column="740584" selection-end-column="740587" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/sampling_kde_kl.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret column="1775" selection-start-column="1775" selection-end-column="1775" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sampling_ratechange.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="29" column="38" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KMeans.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-38">
+          <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dbcan.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="66" column="36" selection-start-line="66" selection-start-column="36" selection-end-line="66" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/dbscan_id_x_y.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="16" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HighMapData.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="27" column="28" lean-forward="true" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/highmap_data_js_used.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
         </state>
       </provider>
     </entry>
