@@ -20,8 +20,10 @@ function drawforce(nodeArr, edgeArr) {
         })
     }
 
-    const width = 400;
-    const height = 400;
+    const width = 760;
+    const height = 710;
+
+
 
 
     var simulation = d3.forceSimulation(nodesid)
@@ -33,6 +35,30 @@ function drawforce(nodeArr, edgeArr) {
         })
         
         .on("end",()=>{
+            var x_max = d3.max(nodesid,function(d){
+                return d.x;
+            })
+            var x_min = d3.min(nodesid,function(d){
+                return d.x;
+            })
+            var y_max = d3.max(nodesid,function(d){
+                return d.y;
+            })
+            var y_min = d3.min(nodesid,function(d){
+                return d.y;
+            })
+        
+            var xScale = d3.scaleLinear()
+                .domain([x_min,x_max])
+                .range([10,width]);
+            var yScale = d3.scaleLinear()
+                .domain([y_min,y_max])
+                .range([10,height]);
+        
+            for(var i = 0 ; i < nodesid.length; i++){
+                    nodesid[i].x = parseInt(xScale(nodesid[i].x));
+                    nodesid[i].y = parseInt(yScale(nodesid[i].y));
+            }
             console.log(nodesid)
             fs.writeFile("force_data.json",JSON.stringify(nodesid),function(err){
                 if(err){

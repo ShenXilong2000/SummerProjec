@@ -16,7 +16,6 @@ d3.json("/data/force_data_gai.json", function populate(datas){
         node["y"] = datas[key]["y"];
         nodes.push(node);
     }
-
     // for(var i = 0; i<data.length;i++){
     //     var node = {};
     //     node["id"] = 
@@ -45,8 +44,6 @@ d3.json("/data/force_data_gai.json", function populate(datas){
             // data["target"].y = datas[a2].y;
             links.push(data);
         }
-
-        console.log(links);
 
         let app = new PIXI.Application({
             width:force_width,
@@ -86,33 +83,33 @@ d3.json("/data/force_data_gai.json", function populate(datas){
         //     datas[key].y = parseInt(yScale(datas[key].y));
         // }
 //==================
-        for(var i = 0 ; i < nodes.length; i++){
-            nodes[i].x = parseInt(xScale(nodes[i].x));
-            nodes[i].y = parseInt(yScale(nodes[i].y));
-        }
+        // for(var i = 0 ; i < nodes.length; i++){
+        //     nodes[i].x = parseInt(xScale(nodes[i].x));
+        //     nodes[i].y = parseInt(yScale(nodes[i].y));
+        // }
 
-        for(var i = 0;i < links.length;i++){
-            links[i]["source"].x = parseInt(xScale(links[i]["source"].x));
-            links[i]["source"].y = parseInt(yScale(links[i]["source"].y));
-            links[i]["target"].x = parseInt(xScale(links[i]["target"].x));
-            links[i]["target"].y = parseInt(yScale(links[i]["target"].y));
-        }
+        // for(var i = 0;i < links.length;i++){
+        //     links[i]["source"].x = parseInt(xScale(links[i]["source"].x));
+        //     links[i]["source"].y = parseInt(yScale(links[i]["source"].y));
+        //     links[i]["target"].x = parseInt(xScale(links[i]["target"].x));
+        //     links[i]["target"].y = parseInt(yScale(links[i]["target"].y));
+        // }
 
 
 
-        const lines = new PIXI.Graphics();
-        for(var i = 0 ; i < links.length ; i++){
-            lines.lineStyle(0.4,line_Color,1);
-            lines.moveTo(links[i].source.x,links[i].source.y);
-            lines.lineTo(links[i].target.x,links[i].target.y);
-        }
+        // const lines = new PIXI.Graphics();
         // for(var i = 0 ; i < links.length ; i++){
         //     lines.lineStyle(0.4,line_Color,1);
-        //     // console.log(datas[links[i].source])
-        //     lines.moveTo(parseInt(xScale(datas[links[i].source].x)),parseInt(yScale(datas[links[i].source].y)));
-        //     lines.lineTo(parseInt(yScale(datas[links[i].target].x)),parseInt(yScale(datas[links[i].target].y)));
+        //     lines.moveTo(links[i].source.x,links[i].source.y);
+        //     lines.lineTo(links[i].target.x,links[i].target.y);
         // }
-        app.stage.addChild(lines);
+        // // for(var i = 0 ; i < links.length ; i++){
+        // //     lines.lineStyle(0.4,line_Color,1);
+        // //     // console.log(datas[links[i].source])
+        // //     lines.moveTo(parseInt(xScale(datas[links[i].source].x)),parseInt(yScale(datas[links[i].source].y)));
+        // //     lines.lineTo(parseInt(yScale(datas[links[i].target].x)),parseInt(yScale(datas[links[i].target].y)));
+        // // }
+        // app.stage.addChild(lines);
 
         const circles = new PIXI.Graphics();
         // for(var key in datas){
